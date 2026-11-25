@@ -1,0 +1,16 @@
+{
+  "name": "synchy-booth",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cinematic AI photo booth for a projector installation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js --open",
+    "kiosk": "node server.js --kiosk",
+    "mock": "node server.js --open --mock",
+    "montage": "node tools/build-montage.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

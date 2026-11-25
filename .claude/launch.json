@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "booth-mock",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["server.js", "--mock"],
+      "port": 8080
+    },
+    {
+      "name": "booth",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["server.js"],
+      "port": 8080
+    }
+  ]
+}

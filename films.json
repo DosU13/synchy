@@ -1,0 +1,189 @@
+{
+  "_help": "One entry per film. 'look' is what the AI reads (English works best). 'grade' is the color look of the live preview: natural, warm, soft, dusk, period, gritty, noir, desert, neon, luxe, horror, carnival, cold, dream, fire, village, doc, teal, rich. 'aliases' are other names a trailer file may have (Latin or Cyrillic). 'info' says where the description comes from. The film's promotional pictures for the AI are in refs/<id>/ (see README).",
+  "films": [
+    {
+      "id": "naparnikter-3",
+      "title": "Напарниктер 3",
+      "aliases": ["the children 3", "partners 3"],
+      "grade": "warm",
+      "info": "kinoafisha.info (plot, poster), trailer",
+      "look": "A buddy cop action-comedy, part three: police lieutenant Belek is paired with a tough female detective from Osh to take down a drug syndicate. The poster shows the two partners in close-up in mirrored aviator sunglasses, one chewing a toothpick, the other a lollipop, against a dark navy night; the film has a police station with the Kyrgyz flag, an old red BMW and loud Hawaiian shirts. Bold, sunny, comic action-movie energy."
+    },
+    {
+      "id": "esimde",
+      "title": "Эсимде",
+      "aliases": ["i remember"],
+      "grade": "dusk",
+      "info": "kinoafisha.info (plot, poster), trailer",
+      "look": "A romantic drama: two young people, Bakyt and Kyyal, fall in love, not knowing that their parents are bound by a dark past. The poster shows the young couple running hand in hand through tall dry grass under a deep blue dusk sky; the film has the shore of Issyk-Kul at golden hour with seagulls. Warm amber light against cool teal shadows, tender and dramatic."
+    },
+    {
+      "id": "polchanki",
+      "title": "Полчанки",
+      "aliases": [],
+      "grade": "warm",
+      "info": "trailer only (no poster found online)",
+      "look": "An army comedy: pampered city girls in pink tracksuits end up in a Kyrgyz army training camp. Camouflage uniforms and caps, a parade ground, barracks, an obstacle course, comic drill sergeants, bright autumn daylight, warm saturated colors, funny determined faces."
+    },
+    {
+      "id": "kyyal",
+      "title": "Кыял",
+      "aliases": ["dream"],
+      "grade": "soft",
+      "info": "kinoafisha.info (plot, poster), trailer",
+      "look": "A tender drama: widower Bolot takes his seriously ill little daughter Kyyal out of hospital to make every wish in her secret diary come true, together with her friend Zhoki. The poster shows them running joyfully in the rain under a golden sunset sky, with a Ferris wheel and a hot-air balloon; the film has the turquoise shore of Issyk-Kul. Golden-hour warmth, hope and gentle tears."
+    },
+    {
+      "id": "chernyy-dvor",
+      "title": "Черный двор",
+      "aliases": ["black yard", "black courtyard"],
+      "grade": "gritty",
+      "info": "trailer only (no poster found online)",
+      "look": "A gritty drama about teenage boys from a tough neighbourhood drawn into the criminal world, after the popular series of the same name. A run-down Soviet-era school courtyard, tracksuits and jackets, old cars, dim blue rooms with silhouettes, overcast light, muted greens and greys, tough looks."
+    },
+    {
+      "id": "ayan",
+      "title": "Аян",
+      "aliases": [],
+      "grade": "teal",
+      "info": "kinoafisha.info (plot, poster), trailer",
+      "look": "A quiet psychological drama about a woman who feels lost: her family keeps silent, and loneliness in her marriage slowly turns into depression, told with dreamlike, haunting images. The poster shows a man and a woman pressing their foreheads together in a misty, almost monochrome grey-sepia world; the film has a woman lying in a bathtub of floating petals and dim corridors. Muted, melancholic, intimate."
+    },
+    {
+      "id": "koloko",
+      "title": "Көлөкө",
+      "aliases": ["shadow"],
+      "grade": "cold",
+      "info": "kinoafisha.info (plot, poster), trailer",
+      "look": "A dark drama-thriller: Samat, who takes everything by force, decides that his old acquaintance Asel is his destiny and will not accept her no. The poster shows three tense faces in a cold blue night forest above a car's headlights; the film has late-autumn Bishkek, bare trees and a woman in a red scarf. Cold blue-grey tones with a single red accent."
+    },
+    {
+      "id": "nelegal",
+      "title": "Нелегал. Дорога в Мексику",
+      "aliases": ["illegal", "the illegal"],
+      "grade": "desert",
+      "info": "kinoafisha.info (plot, poster), 24.kg",
+      "look": "An action drama based on real events: Chyngyz secretly crosses many countries to reach Mexico, dodging immigration police and local gangs. The poster shows exhausted travelers with backpacks running down a muddy jungle road ahead of a truck, dust and sweat in hot ochre-green light. Adventure, family and grit."
+    },
+    {
+      "id": "och-2",
+      "title": "Өч 2: Карындаш",
+      "aliases": ["revenge 2"],
+      "grade": "rich",
+      "info": "kinoafisha.info (poster); plot not published",
+      "look": "A revenge thriller, the sequel to 'Өч': the story of a younger sister and the price of revenge. The poster shows a tearful young woman's face lit in dark red against black. Dark, intense, red and black, with strong determined faces."
+    },
+    {
+      "id": "mafiya",
+      "title": "Мафия: Миллиондор изи",
+      "aliases": ["mafia"],
+      "grade": "luxe",
+      "info": "kinoafisha.info (plot, poster)",
+      "look": "A crime drama: a corrupt official and a crime boss control the country through a mafia network, and two journalists and a young officer challenge them. The poster shows the journalists in front of an evidence board covered in mugshots and red string, lit by a warm desk lamp, with a bold red title. Warm tungsten light, deep shadows and red accents, a tense investigative mood."
+    },
+    {
+      "id": "kassandra",
+      "title": "Кассандра",
+      "aliases": ["cassandra"],
+      "grade": "horror",
+      "info": "kinoafisha.info (plot, stills), kaktus.media",
+      "look": "A mystical ethno-horror inspired by Chingiz Aitmatov: a young woman stops sleeping and learns from a seer in a remote place that an evil spirit feeds on her greatest fear. The film has a view through a yurt's lattice wall to an empty steppe and hills, dim interiors and tearful faces. Desaturated teal-green twilight, oppressive eerie stillness. Atmosphere only, no monsters."
+    },
+    {
+      "id": "shermendelik-karnavaly",
+      "title": "Шерменделик карнавалы",
+      "aliases": ["carnival of shame"],
+      "grade": "luxe",
+      "info": "kinoafisha.info (genre, poster), trailer",
+      "look": "A crime comedy about a briefcase full of money: gangsters in suits and hats, a fancy hotel room with warm lamps, a night ride in a car, absurd chaos. Warm tungsten interiors against teal night exteriors, red accents, stylish and funny."
+    },
+    {
+      "id": "zhetishet",
+      "title": "Жетишет",
+      "aliases": ["seventeen"],
+      "grade": "cold",
+      "info": "kinoafisha.info (plot, poster), trailer",
+      "look": "A drama about domestic violence: Kasiet lives in fear of her respected but cruel husband while their little daughter hides in a closet, until she finds the strength to say enough. A modern apartment in cold blue-grey light, quiet tension, strong and dignified faces. Show strength and resolve, not violence."
+    },
+    {
+      "id": "mergen",
+      "title": "Мерген",
+      "aliases": [],
+      "grade": "cold",
+      "info": "kinoafisha.info (plot, posters, still), IFFR, FIPRESCI",
+      "look": "An atmospheric neo-noir: a policeman investigating a death in the snowy Kyrgyz mountains uncovers brutal corruption in a remote former gold-mining town, where Soviet legacy and local superstitions collide. The poster shows three stern men against misty grey-teal mountains; the film has faces in moody teal light. Cold, foggy, serious."
+    },
+    {
+      "id": "oken-ava",
+      "title": "Окен ава",
+      "aliases": [],
+      "grade": "village",
+      "info": "kinoafisha.info (plot, poster), trailer",
+      "look": "A warm family comedy: a young city guy ends up in a mountain village and changes his life thanks to kind and wise Oken ava. The poster shows cheerful villagers in white ak-kalpak hats and bright clothes in front of green mountains and a village; the film has lilac bouquets, yurts and horse games. Sunny, golden, saturated colors."
+    },
+    {
+      "id": "kuday-saktasyn-2",
+      "title": "Кудай сактасын 2",
+      "aliases": ["god bless 2", "god save 2"],
+      "grade": "village",
+      "info": "kinoafisha.info (poster), afisha.uz",
+      "look": "A comedy sequel about two former prisoners who try to live honest, religious lives. The poster shows three comic men in white kalpaks, sunglasses and a police vest against a bright yellow-orange sky with a mosque dome. Sunny, warm and playful."
+    },
+    {
+      "id": "sezimder",
+      "title": "Сезимдер",
+      "aliases": ["feelings", "emotions"],
+      "grade": "carnival",
+      "info": "kinoafisha.info (plot, poster)",
+      "look": "A comedy about Kairat, who stopped believing in love, and the five emotions living inside his head: Reason, Fear, Anger, Desire and Love. The poster shows a man whose head is open at the top like a little stage, with five colorful emotion characters partying inside, against a vivid purple background with hand-drawn doodles. Bright, playful and colorful."
+    },
+    {
+      "id": "zhez-kempir",
+      "title": "Жез кемпир",
+      "aliases": ["copper witch"],
+      "grade": "horror",
+      "info": "guess from the title (a witch of Kyrgyz folklore), nothing found online",
+      "look": "A folk-horror fairy tale based on Kyrgyz folklore about the copper-clawed old witch. An old yurt or a dark forest at night, flickering firelight, fog, ancient ornaments, eerie but playful. Keep the people human, do not turn them into monsters."
+    },
+    {
+      "id": "zhalyn",
+      "title": "Жалын",
+      "aliases": ["flame"],
+      "grade": "fire",
+      "info": "kinoafisha.info (plot, poster)",
+      "look": "An action romance: young firefighter Erzhan saves Begimai from a burning car after a terrible crash, and their love has to survive a man who wants to destroy it. The poster shows the couple in close-up above a firefighter silhouetted against a blazing fire and a city at night. Orange firelight against teal night, passionate and heroic."
+    },
+    {
+      "id": "beyish-apama-kat",
+      "title": "Бейиш, апама кат",
+      "aliases": ["beyish", "paradise", "letter to mom", "letter to my mother"],
+      "grade": "soft",
+      "info": "IMDb, ivi.tv (plot), afisha.uz (picture)",
+      "look": "An adventure drama, the sequel to 'Бейиш эненин таманында': Adil, a kind grown man with a child's soul, and nine-year-old Samir travel from Kyrgyzstan through Russia to Moscow to make the boy's dream come true. Simple homes in soft daylight, long roads, warm and hopeful, tender faces."
+    },
+    {
+      "id": "psy",
+      "title": "Псы",
+      "aliases": ["dogs"],
+      "grade": "doc",
+      "info": "partly: documentary by Aliman Toktogulova and Karash Zhanyshov; subject not found",
+      "look": "An observational documentary. Bishkek outskirts, a handheld camera feel, natural overcast light, a few street dogs nearby, an honest unposed moment."
+    },
+    {
+      "id": "panic-button",
+      "title": "Panic Button",
+      "aliases": [],
+      "grade": "teal",
+      "info": "UPI, Czech Film Center (Busan 2025)",
+      "look": "A documentary thriller: investigative journalist Ali Toktakunov and director Samara Sagynbaeva live under round-the-clock protection in Prague after exposing a 700-million-dollar corruption scheme; a small panic button is their lifeline. Winter streets, a dim apartment at night, laptops and documents, cold streetlight, a tense surveillance mood."
+    },
+    {
+      "id": "kurak",
+      "title": "Курак",
+      "aliases": ["patchwork"],
+      "grade": "rich",
+      "info": "24.kg (Busan 2025); no film pictures found online",
+      "look": "A contemporary Bishkek drama about the resilience of women, several stories stitched together like kurak patchwork. Interiors with colorful kurak patchwork textiles, soft window light, night city lights, dignified and strong people."
+    }
+  ]
+}

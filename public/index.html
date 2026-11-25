@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ky">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SYNCHY</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="stage" class="state-boot">
+
+    <!-- the picture window (cinema widescreen) -->
+    <main id="frame">
+      <video id="cam" class="mirror" autoplay muted playsinline></video>
+      <canvas id="demo" hidden></canvas>
+      <img id="still" alt="">
+      <img id="result" alt="">
+      <div id="tint"></div>
+      <div class="vignette"></div>
+      <canvas id="grain"></canvas>
+      <canvas id="leader"></canvas>
+      <div id="safelight"></div>
+      <div id="flash"></div>
+    </main>
+
+    <!-- shown when nobody is at the booth: montage clips and guests' photos -->
+    <section id="idle">
+      <!-- two layers: the next clip fades in over the current one -->
+      <video id="montage" class="mv" muted playsinline preload="auto"></video>
+      <video id="montage2" class="mv" muted playsinline preload="auto"></video>
+      <div id="titleCard">
+        <div class="tc-name" id="tcName"></div>
+        <div class="tc-sub" id="tcSub"></div>
+      </div>
+      <figure id="idleStill"><img id="idleImg" alt=""></figure>
+      <div class="vignette"></div>
+      <canvas id="idleGrain"></canvas>
+    </section>
+
+    <!-- letterbox bars -->
+    <header class="bar bar-top">
+      <span id="statusDot" class="status-dot"></span>
+      <span id="eventName" class="event-name"></span>
+      <span id="topText" class="top-text"></span>
+      <span id="toast" class="toast"></span>
+    </header>
+    <footer class="bar bar-bottom">
+      <div id="clipCaption" class="clip-caption"></div>
+      <div id="hintLeft" class="hint left"></div>
+      <div class="center">
+        <div id="filmTitle" class="film-title"></div>
+        <div id="subLine" class="sub-line"></div>
+      </div>
+      <div id="hintRight" class="hint right"></div>
+    </footer>
+
+    <pre id="debug" hidden></pre>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

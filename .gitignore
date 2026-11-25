@@ -1,0 +1,7 @@
+.env
+captures/
+.browser-profile/
+node_modules/
+montage/*
+!montage/README.txt
+trailers/

@@ -1,0 +1,58 @@
+{
+  "eventName": "SYNCHY",
+  "eventSubtitle": "",
+  "languages": ["ky", "ru"],
+
+  "frameAspect": 2.39,
+  "mirror": true,
+  "countdownSeconds": 3,
+  "minDevelopSeconds": 4,
+  "resultSeconds": 14,
+  "selectTimeoutSeconds": 30,
+  "idleStillEverySeconds": 16,
+  "idleStillSeconds": 7,
+  "montageSound": false,
+  "montage": { "crossfadeSeconds": 1.2, "clipsPerFilm": 8, "minClipSeconds": 2.8, "maxClipSeconds": 6 },
+  "keepOriginals": false,
+  "showStatusDot": true,
+
+  "camera": { "width": 1920, "height": 1080, "labelContains": "" },
+
+  "ai": {
+    "enabled": true,
+    "aspectRatio": "21:9",
+    "imageSize": "1K",
+    "thinkingLevel": "minimal",
+    "timeoutSeconds": 45,
+    "promptTemplate": [
+      "Create a widescreen movie poster artwork (key art) for the Kyrgyz film \"{title}\", with the people in this photo as its stars.",
+      "About the film and its look: {look}",
+      "Keep every person's face, identity, age, gender, skin tone and expression exactly as in the photo, so that their friends instantly recognize them. Keep the same number of people, posed as the heroes of the poster.",
+      "Dress them, light them and place them in the world of this film.",
+      "Photorealistic, dramatic key-art lighting, rich cinematic color grading, sharp and polished like a real theatrical poster, widescreen composition.",
+      "No lettering at all: no title, names, dates, credits, logos or watermarks. No borders or black bars. No blood, wounds or weapons."
+    ],
+    "references": { "max": 2 },
+    "referencePromptTemplate": [
+      "Create a widescreen movie poster artwork (key art) for the Kyrgyz film \"{title}\", with the people in the first image as its stars.",
+      "The other images are the film's official poster and stills. Follow them for the poster's idea and composition, color palette, lighting, wardrobe, setting and mood, but make a new picture.",
+      "Never copy the faces or identities of the actors in those pictures.",
+      "About the film: {look}",
+      "Keep every person's face, identity, age, gender, skin tone and expression exactly as in the first image, so that their friends instantly recognize them. Keep the same number of people, posed as the heroes of the poster.",
+      "Photorealistic, dramatic key-art lighting, rich cinematic color grading, sharp and polished like a real theatrical poster, widescreen composition.",
+      "No lettering at all: no title, names, dates, credits, logos or watermarks (the booth shows the title itself). No borders or black bars. No blood, wounds or weapons."
+    ]
+  },
+
+  "texts": {
+    "attract":        { "ky": "Тасманын каарманы болуңуз", "ru": "Станьте героем фильма" },
+    "start":          { "ky": "баштоо", "ru": "начать" },
+    "changeFilm":     { "ky": "башка тасма", "ru": "другой фильм" },
+    "shoot":          { "ky": "тартуу", "ru": "снимать" },
+    "getReady":       { "ky": "Даярданыңыз!", "ru": "Приготовьтесь!" },
+    "developing":     { "ky": "Кадр чыгарылып жатат…", "ru": "Проявляем кадр…" },
+    "starring":       { "ky": "Башкы ролдо — сиз", "ru": "В главной роли — вы" },
+    "guestsStarring": { "ky": "Башкы ролдо — биздин коноктор", "ru": "В главной роли — наши гости" },
+    "again":          { "ky": "дагы бир жолу", "ru": "ещё раз" }
+  }
+}
